@@ -104,7 +104,7 @@ frac, whole = math.modf(res_min)
 minu=int(whole)
 sec=int(frac*60)
 
-timetoprocess="CPU Execution time: "+ str(minu)+" minutes "+str(sec)+" seconds\n"
+timetoprocess="Time to process: "+ str(minu)+" minutes "+str(sec)+" seconds\n"
 
 import os, psutil
 process = psutil.Process(os.getpid())
